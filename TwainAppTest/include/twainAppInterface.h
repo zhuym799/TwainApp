@@ -119,29 +119,29 @@ public:
 
 protected:
 
-//	/**
-//	* converts the integer TWTY value into string form
-//	* @param[in] _unItem the TWTY value
-//	* @return the equivalent string
-//	*/
-//	static const char* convertTWTY2String(const TW_UINT16 _unItem);
+	/**
+	* converts the integer TWTY value into string form
+	* @param[in] _unItem the TWTY value
+	* @return the equivalent string
+	*/
+	static const char* convertTWTY2String(const TW_UINT16 _unItem);
 
 
-//	/**
-//	* converts the integer CAP value into string form
-//	* @param[in] _unCap the cap
-//	* @return the equivalent cap string
-//	*/
-//	static const char* convertCAP2String(const TW_UINT16 _unCap);
+	/**
+	* converts the integer CAP value into string form
+	* @param[in] _unCap the cap
+	* @return the equivalent cap string
+	*/
+	static const char* convertCAP2String(const TW_UINT16 _unCap);
 
-//	/**
-//	* converts the integer CAP transfer method into string form
-//	* @param[in] _unCap the cap
-//	* @param[in] _unItem the value
-//	* @param[in] _unType the TWAIN Type of the item
-//	* @return the equivalent string
-//	*/
-//	static const char* convertCAP_Item2String(const TW_UINT16 _unCap, const TW_UINT32 _unItem, const TW_UINT16 _unType);
+	/**
+	* converts the integer CAP transfer method into string form
+	* @param[in] _unCap the cap
+	* @param[in] _unItem the value
+	* @param[in] _unType the TWAIN Type of the item
+	* @return the equivalent string
+	*/
+	static const char* convertCAP_Item2String(const TW_UINT16 _unCap, const TW_UINT32 _unItem, const TW_UINT16 _unType);
 
 	//////////////////////////////////////////////////////////////////////////////
 	static TW_FIX32 convertFloatToFIX32(float floater);

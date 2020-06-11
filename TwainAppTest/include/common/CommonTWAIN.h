@@ -62,11 +62,7 @@ typedef struct _TW_GUID {
     #define kTWAIN_DSM_DLL_NAME "TWAINDSM.dll"
   #endif // #ifdef TWH_64BIT
 #elif defined(TWH_CMP_GNU)
-  #ifdef TWNDS_OS_WIN
-        #define kTWAIN_DSM_DLL_NAME "TWAINDSM.dll"
-    #else
-        #define kTWAIN_DSM_DLL_NAME "libtwaindsm.so"
-    #endif
+  #define kTWAIN_DSM_DLL_NAME "libtwaindsm.so"
 #else
   #error ("Sorry, we don't recognize this system...")
 #endif
